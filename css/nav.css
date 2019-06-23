@@ -1,0 +1,58 @@
+nav {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid gray;
+    width: inherit;
+    display: flex;
+    justify-content: space-around;
+}
+
+.search {
+    background: transparent;
+    border: none;
+    width: 90%  ;
+    height: inherit;
+    outline:none;
+}
+
+.search__input{
+    margin-top: 80px;
+    width: 400px;
+    height: 40px;
+    border: 1px solid gray;
+    position: relative;
+    left: 55px;
+    border-radius: 20px;
+}
+
+.loupe {
+    position: relative;
+    left: 6px;
+    top:4px;
+    width: 16px;
+    height: 16px;
+}
+
+.plus__icon {
+    margin-top: 80px;
+    width: 50px;
+    height: 40px;
+    position: relative;
+}
+
+.search__text {
+    margin-top: 80px;
+    font-size: 25px;
+    position: relative;
+    right: 120px;
+    bottom: 13px;
+}
+
+.add__location {
+    font-size: 26px;
+}
+
+.question {
+    font-size: 18px;
+    color: gray;
+}

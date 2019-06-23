@@ -1,0 +1,15 @@
+.show__weather {
+    width: 100%;
+    height: 200px;
+}
+
+.your__location {
+    color: royalblue;
+    position: relative;
+}
+
+.your__region__temperature {
+    color: royalblue;
+    position: relative;
+    left: 50px;
+}

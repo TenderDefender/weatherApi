@@ -1,0 +1,41 @@
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: lightgray;
+}
+
+.footer__text {
+    position: relative;
+    top:130px;
+    left: 150px;
+}
+
+.weather__words__footer {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.info__words__footer {
+    font-size: 30px;
+    color:#34f733;
+}
+
+.privacy {
+    color: grey;
+    border-left:1px solid grey;
+    position: relative;
+    left: 20px;
+}
+
+.footer__\@{
+    color: grey;
+    position: relative;
+    left:10px;
+}
+
+.footer__year {
+    color: grey;
+    position: relative;
+    left: 10px;
+}

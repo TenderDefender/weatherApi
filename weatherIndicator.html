@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link rel="stylesheet" type="text/css" href="css/weather.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/showWeather.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta name="viewport" content='width=1000'/>
+    <title>title</title>
+</head>
+<body>
+<header>
+    <div class="left__words">
+        <span class="weather__words">Weather<span class="info__words">Info</span></span>
+    </div>
+    <div class="right__words">
+        <span class="forecasts__words">Forecasts</span>
+        <span
+                class="climate__word">Climate Change
+    </span>
+        <span class="lifestyle__words">Lifestyle</span>
+        <span
+                class="photos__words">Photos
+    </span>
+        <span class="news__words">News</span>
+    </div>
+</header>
+<nav>
+    <div class="search__input">
+        <input placeholder="      site search" type="search" class="search">
+        <img class="loupe" src="icons/search-solid.svg">
+    </div>
+    <img class="plus__icon" src="icons/plus-circle-solid.svg">
+    <div class="search__text">
+        <span class="add__location">Add location</span><br>
+        <span class="question">Did you know you can add favourite locations?</span>
+    </div>
+    <div class="add__location"></div>
+</nav>
+<main>
+    <div class="daily__text">
+        <p class="daily">Daily Weather</p>
+        <p class="forecasts__videos">Forecast Videos</p>
+        <p class="some__text">Bireasrtasas mioyreas deuyasa souygas dekiertas</p>
+    </div>
+    <div class="first__img">
+        <img src="img/first.jpg">
+    </div>
+    <div class="second__img">
+        <img src="img/second.jpg">
+    </div>
+    <div class="third__img">
+        <img src="img/third.jpg">
+    </div>
+</main>
+<div class="weather">
+    <img class="sunny" src="img/landscape.jpg" alt="">
+</div>
+<p>
+    <button class="loc">Show my location and weather</button>
+</p>
+<div id="out"></div>
+<div id="map"></div>
+<div class="show__weather">
+    <span class="your__location"></span>
+    <span class="your__region__temperature"></span>
+    <div></div>
+</div>
+<footer>
+    <p class="footer__text"><span class="weather__words__footer">Weather<span
+            class="info__words__footer">Info</span></span><span class="footer__@">©</span>
+        <span class="footer__year">2019</span>
+        <span class="privacy">Privacy policy</span>
+    </p>
+</footer>
+<script src="js/gizmeteo.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXw8y13oWCsJ-7q1bcsH4izB3DUW1rx8s&callback=initMap" async
+        defer></script>
+<script src="js/афаа.js"></script>
+</body>
+</html>

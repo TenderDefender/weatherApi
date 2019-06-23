@@ -1,0 +1,72 @@
+html {
+    min-width: 100%;
+}
+
+body {
+    background-color: white;
+    min-width: 1000px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+display: flex;
+justify-content: space-around;
+    padding-top: 30px;
+}
+
+
+.weather__words {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.info__words {
+    font-size: 30px;
+    color:#34f733;
+}
+
+.forecasts__words{
+    font-size:20px;
+}
+
+.climate__word{
+    font-size:20px;
+
+}
+
+.lifestyle__words {
+    font-size:20px;
+
+}
+
+.photos__words {
+    font-size:20px;
+
+}
+
+.news__words {
+    font-size:20px;
+
+}
+
+.left__words{
+    width: 25%;
+    height: 50px;
+
+}
+
+.right__words {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 65%;
+
+}
+
+.right__words span:hover {
+    color:#34f733;
+    transition: 1s ease-out;
+    cursor: pointer;
+}

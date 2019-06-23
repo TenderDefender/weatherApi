@@ -1,0 +1,24 @@
+
+main {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.daily {
+    font-size: 22px;
+}
+
+.forecasts__videos {
+    font-size: 22px;
+}
+
+.some__text {
+    font-size: 18px;
+    color: gray;
+}
+
+main img:hover{
+    box-shadow: 0 0 5px 2px;
+}
