@@ -14,8 +14,8 @@
 }
 
 .loc {
+
     position: relative;
-    left: 40%;
     color: grey;
     background-color: white;
     border-radius: 5px;
@@ -23,6 +23,56 @@
 }
 
 .loc:hover {
+    color: green;
+    cursor: pointer;
+    box-shadow: 0 0 5px 2px;
+}
+
+.get__weather {
+    display: flex;
+    position: relative;
+    color: grey;
+    background-color: white;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.get__weather:hover {
+    color: green;
+    cursor: pointer;
+    box-shadow: 0 0 5px 2px;
+}
+
+.lng__lat {
+    position: relative;
+    display: flex;
+    color: grey;
+    background-color: white;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.lng__lat:hover {
+    color: green;
+    cursor: pointer;
+    box-shadow: 0 0 5px 2px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.weather__show {
+    position: relative;
+    display: flex;
+    color: grey;
+    background-color: white;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.weather__show:hover {
     color: green;
     cursor: pointer;
     box-shadow: 0 0 5px 2px;

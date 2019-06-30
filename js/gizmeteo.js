@@ -1,7 +1,10 @@
 // show Location
-let btn = document.querySelector('.loc');
-btn.addEventListener('click', initMap);
-btn.addEventListener('click', geoFindMe);
+let btn1=document.querySelector('.lng__lat');
+let btn2 = document.querySelector('.loc');
+let btn3=document.querySelector('.get__weather');
+let btn4=document.querySelector('.weather__show');
+btn2.addEventListener('click', initMap);
+btn1.addEventListener('click', geoFindMe);
 let output = document.getElementById("out");
 let lat;
 let lng;
@@ -40,8 +43,8 @@ function initMap() {
 //weather
 
 const API_KEY = '37c550e61f6f3e0494726d44416a2ffc';
-btn.addEventListener('click', gettingWeather);
-btn.addEventListener('click', showWeather);
+btn3.addEventListener('click', gettingWeather);
+btn4.addEventListener('click', showWeather);
 let weatherData = {};
 
 function gettingWeather() {
@@ -76,4 +79,3 @@ function showWeather() {
         console.log('Ah shit here we go again');
     }
 }
-
